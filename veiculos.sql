@@ -24,3 +24,6 @@ SELECT * FROM carros WHERE Ano=2017;
 
 #Contando os dados da tabela
 SELECT count(*) FROM carros;
+
+#deletando registros
+DELETE FROM carros where funciona=false
