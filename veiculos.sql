@@ -19,4 +19,5 @@ INSERT INTO carros (Marca, Modelo, Ano, funciona) VALUES ('Jeep', 'Titan 160', 2
 
 UPDATE carros set modelo =  'renegate' WHERE id=4;
 
-
+#Selecionando dados na tabela
+SELECT * FROM carros WHERE Ano=2017;
