@@ -21,3 +21,6 @@ UPDATE carros set modelo =  'renegate' WHERE id=4;
 
 #Selecionando dados na tabela
 SELECT * FROM carros WHERE Ano=2017;
+
+#Contando os dados da tabela
+SELECT count(*) FROM carros;
