@@ -14,3 +14,9 @@ INSERT INTO carros (Marca, Modelo, Ano, funciona) VALUES ('Honda', 'Civic', 2020
 INSERT INTO carros (Marca, Modelo, Ano, funciona) VALUES ('Toyota', 'Corola', 2021, true);
 
 INSERT INTO carros (Marca, Modelo, Ano, funciona) VALUES ('Jeep', 'Titan 160', 2017, false);
+
+#Corrigindo um dado posto errado
+
+UPDATE carros set modelo =  'renegate' WHERE id=4;
+
+
